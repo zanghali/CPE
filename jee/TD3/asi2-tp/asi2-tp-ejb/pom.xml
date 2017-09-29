@@ -74,6 +74,12 @@
             <scope>provided</scope>
         </dependency>
 
+	  <!-- JMS -->
+      <dependency>
+        <groupId>org.jboss.spec.javax.jms</groupId>
+        <artifactId>jboss-jms-api_2.0_spec</artifactId>
+        <scope>provided</scope>
+      </dependency>
 
         <!-- Test scope dependencies -->
         <dependency>
@@ -96,6 +102,7 @@
             <artifactId>arquillian-protocol-servlet</artifactId>
             <scope>test</scope>               
         </dependency>
+
 
     </dependencies>
 
