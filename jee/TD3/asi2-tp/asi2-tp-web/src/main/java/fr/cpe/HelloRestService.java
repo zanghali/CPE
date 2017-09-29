@@ -1,6 +1,8 @@
 package fr.cpe;
 
 import javax.inject.Inject;
+import javax.ws.rs.QueryParam;
+
 import java.util.logging.Logger;
 
 import fr.cpe.impl.IHello;
@@ -13,11 +15,10 @@ public class HelloRestService implements IHelloRestService {
 
 	@Inject
 	IHello helloService;
-	
-	public String hello() {
-		logger.info(">>> hello()");
-		
-		return helloService.sayHello();
-	}
 
+	public String hello(@QueryParam("name") String name) {
+		logger.info(">>> hello(" + name + ")");
+		
+		return helloService.sayHello(name);
+	}
 }
