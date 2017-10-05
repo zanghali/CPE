@@ -1,7 +1,7 @@
-package fr.cpe;
+package fr.cpe.impl;
 
+import fr.cpe.IMathsRestService;
 import fr.cpe.impl.IMaths;
-import fr.cpe.impl.IMathsRestService;
 
 import java.util.List;
 import java.util.logging.Logger;

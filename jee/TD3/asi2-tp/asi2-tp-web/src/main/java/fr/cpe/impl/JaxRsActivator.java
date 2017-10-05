@@ -1,4 +1,4 @@
-package fr.cpe;
+package fr.cpe.impl;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

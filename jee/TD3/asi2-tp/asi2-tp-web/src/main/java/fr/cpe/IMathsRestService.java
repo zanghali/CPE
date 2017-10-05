@@ -1,4 +1,4 @@
-package fr.cpe.impl;
+package fr.cpe;
 
 import java.util.List;
 import javax.ws.rs.GET;
